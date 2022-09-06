@@ -1,8 +1,13 @@
 import React from 'react'
+import FAQ from './FAQ'
+import Privacyandpolicy from './Privacyandpolicy';
+import {Link} from "react-router-dom";
+import {Nav} from 'react-bootstrap';
 
 function Footer() {
     return (
         <div>
+            
 
 <footer className="page-footer font-small blue mt-4 pt-4 bg-dark text-light">
     <div className="container-fluid text-center text-md-left">
@@ -17,15 +22,15 @@ function Footer() {
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Links</h5>
                 <ul className="list-unstyled">
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
+                <Nav.Link as={Link} to="/faq">FAQ's</Nav.Link>
+                <Nav.Link as={Link} to="/privacyandpolicy">Privacy and Policy</Nav.Link>
                     <li><a href="#!">Link 3</a></li>
                     <li><a href="#!">Link 4</a></li>
                 </ul>
             </div>
 
             <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Links</h5>
+                <h5 className="text-uppercase">Quick Links</h5>
                 <ul className="list-unstyled">
                     <li><a href="#!">Link 1</a></li>
                     <li><a href="#!">Link 2</a></li>
@@ -36,11 +41,14 @@ function Footer() {
         </div>
     </div>
 
-    <div className="footer-copyright text-center py-3">© 2020 Copyright:
+    <div className="footer-copyright text-center py-3">© 2022 Copyright:
         
     </div>
 
 </footer>
+
+<FAQ />
+<Privacyandpolicy />
 
 
         </div>

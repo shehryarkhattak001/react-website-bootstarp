@@ -1,10 +1,10 @@
 import React from 'react';
-const Services = () =>{
+const Privacyandpolicy = () =>{
     return(
         <div>
-           
+            
         </div>
         
     )
 }
-export default Services
+export default Privacyandpolicy

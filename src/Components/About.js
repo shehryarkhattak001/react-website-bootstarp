@@ -25,10 +25,13 @@ const About = () =>{
 
       <Container>
         <Row className='px-4 my-5'>
-            <Col sm={5}>
+
+
+        <Col sm={5}>
                 <Image src={BannerImg4} fluid rounded />
 
             </Col>
+            
 
             <Col sm={5}>
 
@@ -41,6 +44,8 @@ const About = () =>{
 
                 <Button variant="outline-primary"><Nav.Link as={Link} to="/about">About</Nav.Link></Button>
             </Col>
+
+            
 
             
 
