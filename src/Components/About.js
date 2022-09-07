@@ -14,16 +14,16 @@ const About = () => {
                     <h1 className='text-center'>About</h1>
                 </div>
             </div>
-            <div>
+            <div style={{ height: 670 }} >
                 <Container>
-                    <Row className='px-4 my-5'>
-                        <Col sm={5}>
+                    <Row className='px-4 my-5 vh-100'>
+                        <Col sm={6}>
                             <Image src={BannerImg4} fluid rounded />
                         </Col>
-                        <Col sm={5}>
+                        <Col sm={6}>
                             <h1 className='font-weight-light'>Hello There!!!</h1>
                             <p className='mt-4'>
-                                Computer programming is the process of performing a particular computation, usually by designing and building an executable computer program. Programming involves task such as analysis, generating algorithms, profiling algorithms.Computer programming is the process of performing a particular computation, usually by designing and building an executable computer program. Programming involves task such as analysis, generating algorithms, profiling algorithms.
+                                Computer programming is the process of performing a particular computation, usually by designing and building an executable computer program. Programming involves task such as analysis, generating algorithms, profiling algorithms.Computer programming is the process of performing a particular computation, usually by designing and building an executable computer program. Programming involves task such as analysis, generating algorithms, profiling algorithms.Computer programming is the process of performing a particular computation, usually by designing and building an executable computer program. Programming involves task such as analysis, generating algorithms, profiling algorithms.Computer programming is the process of performing a particular computation, usually by designing and building an executable computer program. Programming involves task such as analysis, generating algorithms, profiling algorithms.
                             </p>
                             <Button variant="outline-primary"><Nav.Link as={Link} to="/about">About</Nav.Link></Button>
                         </Col>
