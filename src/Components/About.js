@@ -12,11 +12,12 @@ const About = () => {
             <div className='container my-4'>
                 <div className='row'>
                     <h1 className='text-center'>About</h1>
+                    <p className='text-center'>This is About</p>
                 </div>
             </div>
             <div style={{ height: 670 }} >
                 <Container>
-                    <Row className='px-4 my-5 vh-100'>
+                    <Row className='px-3 my-2 vh-100'>
                         <Col sm={6}>
                             <Image src={BannerImg4} fluid rounded />
                         </Col>

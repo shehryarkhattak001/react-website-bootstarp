@@ -1,6 +1,6 @@
 import React from 'react'
 import FAQ from './FAQ'
-import Privacyandpolicy from './Privacyandpolicy';
+import Privacyandpolicy from './Privacyndpolicy';
 import { Link } from "react-router-dom";
 import { Nav } from 'react-bootstrap';
 
@@ -23,7 +23,7 @@ function Footer() {
                             <h5 className="text-uppercase">Links</h5>
                             <ul className="list-unstyled">
                                 <Nav.Link as={Link} to="/faq">FAQ's</Nav.Link>
-                                <Nav.Link as={Link} to="/privacyandpolicy">Privacy and Policy</Nav.Link>
+                                <Nav.Link as={Link} to="/privacyndpolicy">Privacy and Policy</Nav.Link>
                                 <li><a href="#!">Link 3</a></li>
                                 <li><a href="#!">Link 4</a></li>
                             </ul>
