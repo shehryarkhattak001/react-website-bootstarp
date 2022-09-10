@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Footer from './Footer'
+
 
 
 function Privacyndpolicy() {
@@ -23,12 +25,12 @@ function Privacyndpolicy() {
                     keyboard={false}
                 >
                     <Modal.Header closeButton>
-                        <Modal.Title></Modal.Title>
+                        <Modal.Title>Form</Modal.Title>
+
                     </Modal.Header>
                     <Modal.Body>
 
-                        We are very delighted that you have shown interest in REACT. Data protection is of a particularly high priority for the management of the REACT. The use of the Internet pages of REACT is possible without any indication of personal data.
-                        <h3>Form</h3>
+
                         <form class="form ">
                             <div class="form-group text-dark ">
                                 <label for="firstname ">First Name</label>
@@ -58,6 +60,7 @@ function Privacyndpolicy() {
                     </Modal.Footer>
                 </Modal>
             </div>
+            <Footer />
         </>
     );
 }

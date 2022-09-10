@@ -1,5 +1,6 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
+import Footer from './Footer'
 
 
 const FAQ = (props) => {
@@ -28,7 +29,11 @@ const FAQ = (props) => {
                     </Accordion.Item>
                 </Accordion>
 
+
+
             </div>
+            <Footer />
+
         </>
     )
 }

@@ -1,6 +1,4 @@
 import React from 'react'
-import FAQ from './FAQ'
-import Privacyandpolicy from './Privacyndpolicy';
 import { Link } from "react-router-dom";
 import { Nav } from 'react-bootstrap';
 
@@ -9,11 +7,11 @@ function Footer() {
         <div>
 
 
-            <footer className="page-footer font-small blue mt-4 pt-4 bg-dark text-light">
+            <footer className="page-footer font-small blue mt-2 pt-1 bg-dark text-light">
                 <div className="container-fluid text-center text-md-left">
                     <div className="row">
-                        <div className="col-md-6 mt-md-0 mt-3">
-                            <h5 className="text-uppercase">Footer Content</h5>
+                        <div className="col-md-6 mt-1 md-0 mt-3">
+                            <h5 className="text-uppercase">React Website</h5>
                             <p>Here you can use rows and columns to organize your footer content.</p>
                         </div>
 
@@ -21,7 +19,7 @@ function Footer() {
 
                         <div className="col-md-3 mb-md-0 mb-3">
                             <h5 className="text-uppercase">Links</h5>
-                            <ul className="list-unstyled">
+                            <ul className="list-unstyled mt-2">
                                 <Nav.Link as={Link} to="/faq">FAQ's</Nav.Link>
                                 <Nav.Link as={Link} to="/privacyndpolicy">Privacy and Policy</Nav.Link>
                                 <li><a href="#!">Link 3</a></li>
@@ -47,8 +45,6 @@ function Footer() {
 
             </footer>
 
-            <FAQ />
-            <Privacyandpolicy />
 
 
         </div>
